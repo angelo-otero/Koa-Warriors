@@ -1,0 +1,135 @@
+
+body {background:background: #bc0306; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #bc0306 0%, #6d0700 51%, #3d0000 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#bc0306), color-stop(51%,#6d0700), color-stop(100%,#3d0000)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #bc0306 0%,#6d0700 51%,#3d0000 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #bc0306 0%,#6d0700 51%,#3d0000 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #bc0306 0%,#6d0700 51%,#3d0000 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #bc0306 0%,#6d0700 51%,#3d0000 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc0306', endColorstr='#3d0000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+h1 {
+color: #FFD700;
+font-family: 'Eagle Lake', cursive;
+text-shadow: .2em .2em .15em #998100;
+font-size: 50px;
+text-align: center;
+}
+
+.banner {background: #959595; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#959595), color-stop(46%,#0d0d0d), color-stop(50%,#010101), color-stop(53%,#0a0a0a), color-stop(76%,#4e4e4e), color-stop(87%,#383838), color-stop(100%,#1b1b1b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* IE10+ */
+background: linear-gradient(135deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+; 
+width: 100%; height: 15%; text-align: center; font-size: 70px;}
+
+h2 {color: #6F0000;font-family: 'Eagle Lake', cursive; text-align: center;}
+
+p {color: #930000; font-size:20px;font-family: 'Berkshire Swash', cursive;}
+
+p:first-letter{font-size: 35px; color:#440000;}
+
+a:link {color: #007600}
+a:visited {color: #003600}
+a:hover {color: #26AC26}
+a:active {color: #005800}
+
+.main {
+background-color: #FFFFFF;
+background-image: url(Images/diagonal_waves.png); 
+float: right;
+margin: 1%;
+padding-right: 55px;
+padding-left: 55px;
+padding-top: 20px;
+padding-bottom: 20px;
+border: 6px ridge #FFD700;
+width: 60%;
+
+}
+
+ul{font-size: 20px; text-align: center; list-style: none; padding: 1%; font-family: 'Berkshire Swash', cursive;}
+
+.more{
+background-color:#FFFFFF;
+background-image: url(Images/diagonal_waves.png);
+float: right;
+width: 10%;
+margin: 1%;
+padding-right: 2px;
+padding-left: 2px;
+padding-top: 1px;
+padding-bottom: 1px;
+border: 3px dashed #FFD700;
+text-align: center;
+
+}
+
+.more ul{color: #930000; list-style-type: circle;}
+
+img.display{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.logo{
+float: left;
+margin-left: .5%;
+margin-top: .5%;
+}
+
+table{
+background-color:#FFFFFF;
+background-image: url(Images/diagonal_waves.png);
+font-family: 'Eagle Lake', cursive;
+position: fixed;
+width: 15%;
+margin: 1%;
+padding: 5px;
+border: 5px groove #FFD700;
+float: left;
+}
+
+tr{
+font-size: 30px;
+text-align: center;
+}
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+	
+
+	/** Unhide lightbox **/
+	display: block;
+}

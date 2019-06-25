@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Koa Warriors</title>
+<link rel="stylesheet" href="koa.css">
+<link href='http://fonts.googleapis.com/css?family=Eagle+Lake|Berkshire+Swash' rel='stylesheet' type='text/css'>
+<style>/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.16%; }
+.span_1_of_3 { width: 32.33%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}</style>
+</head>
+
+<body>
+
+<div class="logo">
+<a href="index.html"><img src="Images/logo.png" alt="logo"/></a>
+</div>
+<h1 class="banner">THE KOA</h1>
+<h1>War</h1>
+
+<nav>
+<table>
+<tr>
+	<td><a href="index.html">Home</a></td>
+</tr>
+<tr>
+	<td><a href="war.html">War</a></td>
+</tr>
+<tr>
+	<td><a href="culture.html">Culture</a></td>
+</tr>
+<tr>
+	<td><a href="gallery.html">Gallery</a></td>
+</tr>
+<tr>
+	<td><a href="bibliography.html">Bibliography</a></td>
+</tr>
+
+</table>
+</nav>
+
+<div class="more">
+<h2>Quick Facts:</h2>
+<ul>
+<li>Koa often used sharkteeth as weapons</li>
+<br>
+<li>Pa Lua is a Hawaiian Martial Art</li>
+<br>
+<li>Kamehameha I was the first to unite Hawaii</li>
+</ul>
+</div>
+
+<div class="main">
+<div class="section group">
+	<div class="col span_1_of_3">
+	<h2><a href="weapons.html">Weapons</a></h2>
+	<a href="weapons.html"><img class="display" src="Images/weapons_2.jpg" alt="Weapons" style="padding: 1%;"/></a>
+	</div>
+	<div class="col span_1_of_3">
+	<h2><a href="palua.html">Pa Lua</a></h2>
+	<a href="palua.html"><img class="display" src="Images/lua_2.jpg" alt="Pa Lua" style="padding: 1%;"/></a>
+	</div>
+	<div class="col span_1_of_3">
+	<h2><a href="kamehameha.html">Kamehameha I</a></h2>
+	<a href="kamehameha.html"><img class="display" src="Images/kamehameha2_3.jpg" alt="Kamehameha I" style="padding: 1%;" /></a>
+	</div>
+</div>
+</div>
+
+
+
+</body>
+
+</html>

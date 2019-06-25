@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Koa Warriors</title>
+<link rel="stylesheet" href="koa.css">
+<link href='http://fonts.googleapis.com/css?family=Eagle+Lake|Berkshire+Swash' rel='stylesheet' type='text/css'>
+<style>/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 2%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}</style>
+</head>
+
+
+<body>
+
+<div class="logo">
+<a href="index.html"><img src="Images/logo.png" alt="logo"/></a>
+</div>
+<h1 class="banner">THE KOA</h1>
+<h1>Culture</h1>
+
+<nav>
+<table>
+<tr>
+	<td><a href="index.html">Home</a></td>
+</tr>
+<tr>
+	<td><a href="war.html">War</a></td>
+</tr>
+<tr>
+	<td><a href="culture.html">Culture</a></td>
+</tr>
+<tr>
+	<td><a href="gallery.html">Gallery</a></td>
+</tr>
+<tr>
+	<td><a href="bibliography.html">Bibliography</a></td>
+</tr>
+
+</table>
+</nav>
+
+<div class="more">
+<h2>Quick Facts:</h2>
+<ul>
+<li>Haka is a war dance</li>
+<br>
+<li>Aloha is a way of life</li>
+<br>
+<li>Kakau is the Hawaiian practice of tattooing</li>
+<br>
+<li>Mana is spiritual force/energy</li>
+</ul>
+</div>
+
+<div class="main">
+<div class="section group">
+	<div class="col span_1_of_2">
+	<h2><a href="haka.html">Haka</a></h2>
+	<a href="haka.html"><img class="display" src="Images/haka.jpg" alt="Haka"/></a>
+<h2><a href="kakua.html">Kakau</a></h2>
+<a href="kakua.html"><img class="display" src="Images/kakau2_2.jpg" alt="tattoo"/></a>
+	</div>
+	<div class="col span_1_of_2">
+<h2><a href="aloha.html">Aloha</a></h2>
+<a href="aloha.html"><img class="display" src="Images/aloha.jpg" alt="Aloha"/></a>
+	<h2><a href="mana.html">Mana</a></h2>
+	<a href="mana.html"><img class="display" src="Images/mana.jpg" alt="mana"/></a>
+
+	</div>
+</div>
+</div>
+
+
+</body>
+
+</html>
